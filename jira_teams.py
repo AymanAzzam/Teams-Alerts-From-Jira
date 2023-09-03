@@ -9,6 +9,7 @@ message_section = pymsteams.cardsection()
  
  
 # Get the needed info from Jira
+# To add a condition for the last 3 days tickets only you can use **created < -3d**)
 issues = jira.search_issues('project=<jira-project-name> and status=open')
 for issue in issues:
     num = issue.key
