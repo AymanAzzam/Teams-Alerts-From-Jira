@@ -1,5 +1,5 @@
 # Teams-Alerts-From-Jira
-This project is used to send notification messages on Teams channel based on Jira tickets status
+This project is used to send notification messages on Teams channel based on the status of Jira tickets
 
 ## Pre-Requisites
 1. Automation Server
