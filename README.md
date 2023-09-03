@@ -3,7 +3,7 @@ This project is used to send notification messages on Teams channel based on Jir
 
 ## Pre-Requisites
 1. Automation Server
-2. Jira-python installed on the ECS
+2. Jira-python installed on the Automation Server
     - Reference: https://jira.readthedocs.io/installation.html
 3. Channel on Teams
 
