@@ -8,7 +8,7 @@ This project is used to send notification messages on Teams channel based on the
 3. Channel on Teams
 
 ## General Idea
-1. The Automation Server communicate with Jira to check if there is any open ticket and not assigned to anyone
+1. The Automation Server communicate with Jira to check if there is any open tickets
 2. Jira Reply to the Automation server with the needed info
 3. The Automation Server process the given data 
 4. The Automation Server sends a message to teams channel if needed
