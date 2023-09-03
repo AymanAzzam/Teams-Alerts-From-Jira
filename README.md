@@ -1,6 +1,5 @@
 # Teams-Alerts-From-Jira
-This project is used to send notification messages on Teams channel based on the status of Jira tickets
-
+This project is used to send notification messages on Teams channel based on the status of Jira tickets  
 Confluence Page: https://ayman-azzam.atlassian.net/wiki/spaces/~712020f9f917cdb4b94d0e812d7cdfbabf1081/pages/589825/Teams+Alerts+from+Jira
 
 ## Pre-Requisites
