@@ -43,5 +43,7 @@ Create Incoming Webhook on Your channel
 ### Automation Scripts
 We have two automation scripts and one command to run them
 1. **jira_teams.py**
-2. **cron.py**
-    - It runs the **jira_teams.py** script then sleep 1 minute and run it again then sleep 1 minute .... forever till you kill this process
+2. **cron.sh**
+    - This script act as a cron job that runs the **jira_teams.py** script then sleep 1 minute and run it again then sleep 1 minute .... forever till you kill this process
+    - I faced an issue related to mail server When I tried to use the **crontab** instead of this script
+        - I will investigate in it later when I get more knowledge about mail servers
