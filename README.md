@@ -4,7 +4,7 @@ This project is used to send notification messages on Teams channel based on Jir
 ## Pre-Requisites
 1. Automation Server
 2. Jira-python installed on the ECS
-  - Reference: https://jira.readthedocs.io/installation.html
+    - Reference: https://jira.readthedocs.io/installation.html
 3. Channel on Teams
 
 ## General Idea
@@ -21,27 +21,27 @@ We will split the steps into small sub-steps as following
 3. Automation Scripts
 
 ### Jira Steps
-1. Create a personal token on Jira
-  - Go to your profile
-  - Select **Personal Access Tokens**
-  - Click **Create Token**
-  - Enter a **Token Name**
-  - Disable the **Automatic expiry**
-  - Click **Create**
-  - Copy the personal token and paste it in a save place to use it later
+Create a personal token on Jira
+  1. Go to your profile
+  2. Select **Personal Access Tokens**
+  3. Click **Create Token**
+  4. Enter a **Token Name**
+  5. Disable the **Automatic expiry**
+  6. Click **Create**
+  7. Copy the personal token and paste it in a save place to use it later
 
 ### Teams Steps
-1. Create Incoming Webhook on Your channel
-  - Open your channel
-  - Select Connectors from the dropdown menu
-  - Search for **Incoming Webhook** and select Add
-  - Select Configure and fill the data
-  - Copy and save the unique webhook URL present in the dialog. The URL maps to the channel and you can use it to send information to Team
-  - Select Done
-  - Reference: https://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook?tabs=dotnet
+Create Incoming Webhook on Your channel
+  1. Open your channel
+  2. Select Connectors from the dropdown menu
+  3. Search for **Incoming Webhook** and select Add
+  4. Select Configure and fill the data
+  5. Copy and save the unique webhook URL present in the dialog. The URL maps to the channel and you can use it to send information to Team
+  6. Select Done
+  7. Reference: https://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook?tabs=dotnet
 
 ### Automation Scripts
 We have two automation scripts and one command to run them
 1. **jira_teams.py**
 2. **cron.py**
-  - It runs the **jira_teams.py** script then sleep 1 minute and run it again then sleep 1 minute .... forever till you kill this process
+    - It runs the **jira_teams.py** script then sleep 1 minute and run it again then sleep 1 minute .... forever till you kill this process
